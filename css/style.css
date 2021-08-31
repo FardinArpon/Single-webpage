@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.title h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+.title h2{
+    font-family: 'Abril Fatface', cursive;
+    color: #0f2f44;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.browse_btn{
+    text-align: center;
+}
+.browse_btn a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: black;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.1);
+    transition: .4s;
+}
+.browse_btn a:hover{
+    background: #ffc712;
+}
+/* =============================================
+              header part start      
+================================================*/
+#header_part{
+    background: #0f2f44;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+#header_part .left_part{
+    width: 50%;
+    float: left;
+}
+#header_part p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+#header_part .right_part{
+    width: 50%;
+    float: left;
+}
+#header_part .right_part p{
+    text-align: right;
+}
+
+/* =============================================
+              header part end      
+================================================*/
+/* =============================================
+              navbar part start      
+================================================*/
+/* #navbar_part{
+    position: fixed;
+    top: 20;
+    left: 0;
+    width: 100%;
+    background-color: #f7f7f8;
+} */
+
+#navbar_part .logo_part{
+    width: 20%;
+    float: left;
+    margin-top: 30px;
+}
+#navbar_part .logo_part img{
+    width: 70%;
+}
+#navbar_part .menu_part{
+    width: 60%;
+    height: 100px;
+    float: left;
+}
+#navbar_part .button_part{
+    width: 20%;
+    float: left;
+    text-align: right;
+    margin-top: 30px;
+}
+#navbar_part .menu_part ul li{
+    display: inline-block;
+    padding: 35px 20px; 
+    margin-left: 10px;
+    transition: .4s;
+}
+#navbar_part .menu_part ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+#navbar_part .menu_part ul{
+    text-align: center;
+}
+
+#navbar_part .menu_part ul li:hover{
+    background: #fff9e6;
+}
+#navbar_part .menu_part ul li:hover a{
+    color: #ffc712;
+}
+#navbar_part .menu_part ul .active a{
+    color: #ffc712;
+}
+#navbar_part .button_part i{
+    color: #999999;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+#navbar_part .button_part i:hover{
+    color: #ffc712;
+    background: #0f2f44;
+}
+
+.sticky{
+    top: 0;
+    background:skyblue;
+    position: fixed;
+    width: 100%;
+}
+
+#navbar_part{
+    z-index: 999999;
+}
+
+/* =============================================
+              navbar part end      
+================================================*/
+
+/* =============================================
+              banner part start      
+================================================*/
+#banner_part{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#banner_part .banner_text{
+    padding: 150px 0;
+}
+#banner_part .banner_text h2{
+    color: #0f2f44;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+}
+#banner_part .banner_text h1{
+    font-family: 'Abril Fatface', cursive;
+    color: #0f2f44;
+    font-size: 90px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+#banner_part .banner_text h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #aab0d8;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    padding-top: 15px;
+}
+#banner_part .banner_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 528px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#banner_part .banner_text a{
+    background: #8484bf;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding: 12px 22px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #8484bf;
+    transition: .4s;
+}
+#banner_part .banner_text a:hover{
+    color: #8484bf;
+    background: white;
+}
+#banner_part .banner_text i{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: white;
+    line-height: 55px;
+    text-align: center;
+    color: #8484bf;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: .4s;
+}
+#banner_part .banner_text i:hover{
+    color: white;
+    background: #8484bf;
+}
+/* =============================================
+              banner part end      
+================================================*/
+
+/* =============================================
+              about part start      
+================================================*/
+#about_us{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#about_us .about_left{
+    width: 50%;
+    float: left;
+}
+#about_us .about_left .about_text{
+    margin-top: 30px;
+}
+#about_us .about_left .about_text p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #0f2f44;
+    width: 657px;
+    margin-bottom: 15px;
+}
+#about_us .about_left .about_text ul{
+    margin-left: 30px;
+}
+#about_us .about_left .about_text ul li{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0f2f44;
+    margin-top: 20px;
+}
+#about_us .about_left .about_text a{
+    padding: 12px 25px;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-top: 25px;
+    box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.1);
+    transition: .4s;
+}
+#about_us .about_left .about_text a:hover{
+    background: #ffc712;
+}
+
+#about_us .about_right{
+    width: 50%;
+    float: left;
+}
+#about_us .about_right img{
+    width: 100%;
+}
+/* =============================================
+              about part end      
+================================================*/
+
+/* =============================================
+              services part start      
+================================================*/
+#services_part{
+    margin-bottom: 100px;
+}
+#services_part .title{
+    text-align: center;
+}
+#services_part .services .services_item{
+    width: 30%;
+    background: #eeeeee;
+    float: left;
+    margin: 20px;
+    transition: .4s;
+    position: relative;
+}
+#services_part .services .services_item .overlay{
+    width: 0%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    background: #0f2f44;
+    transition: .4s;
+}
+#services_part .services .services_item:hover .overlay{
+    width: 100%;
+}
+
+#services_part .services .services_item .overlay .overlay_details{
+    opacity: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+#services_part .services .services_item:hover .overlay .overlay_details{
+    opacity: 1;
+}
+#services_part .services .services_item .service_details .service_img{
+    width: 25%;
+    background: #e9e9e9;
+    float: left;
+    text-align: center;
+}
+#services_part .services .services_item .service_details .service_img img{
+    margin-top: 55%;
+    padding-bottom: 55%;
+}
+#services_part .services .services_item .service_details .service_text{
+    width: 70%;
+    background: #eeeeee;
+    float: left;
+    margin-left: 5%;
+}
+#services_part .services .services_item .service_details .service_text h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+#services_part .services .services_item .service_details .service_text p{
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+/* =============================================
+              services part end      
+================================================*/
+
+/* =============================================
+              portfolio part start      
+================================================*/
+#portfolio_part{
+    margin-bottom: 100px;
+}
+#portfolio_part .title{
+    text-align: center;
+}
+#portfolio_part .portfolio .port_item{
+    width: 30%;
+    margin: 20px;
+    float: left;
+    position: relative;
+    transition: .4s;
+}
+#portfolio_part .portfolio .port_item img{
+    width: 100%;
+}
+#portfolio_part .portfolio .port_item .overlay{
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    position: absolute;
+}
+#portfolio_part .portfolio .port_item .overlay p{
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    opacity: 0;
+    color: #0f2f44;
+    transition: .5s;
+}
+#portfolio_part .portfolio .port_item:hover .overlay{
+    box-shadow: -5px 10px 65px -7px rgba(0,0,0,0.1);
+}
+#portfolio_part .portfolio .port_item:hover .overlay p{
+    opacity: 1;
+}
+/* =============================================
+              portfolio part end      
+================================================*/
+
+/* =============================================
+              testimonial part start      
+================================================*/
+#testimonial_part{
+    margin-bottom: 100px;
+}
+#testimonial_part .title{
+    text-align: center;
+}
+#testimonial_part .testimonial .testi_item{
+    background: #e9e9e9;;
+    width: 48%;
+    margin: 10px;
+    float: left;
+}
+#testimonial_part .testimonial .testi_item .item_img{
+    width: 40%;
+    float: left;
+}
+#testimonial_part .testimonial .testi_item .item_img img{
+    width: 100%;
+    display: block;
+}
+#testimonial_part .testimonial .testi_item .item_details{
+    width: 58%;
+    margin-left: 2%;
+    float: left;
+}
+#testimonial_part .testimonial .testi_item .item_details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+    padding: 20px 0;
+}
+#testimonial_part .testimonial .testi_item .item_details h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+#testimonial_part .testimonial .testi_item .item_details h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* =============================================
+              testimonial part end      
+================================================*/
+
+/* =============================================
+              blog part start      
+================================================*/
+#blog_part{
+    margin-bottom: 100px;
+}
+#blog_part .title{
+    text-align: center;
+}
+#blog_part .blog .blog_item{
+    background: #f5f5f5;
+    width: 27%;
+    margin: 40px;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: .4s;
+}
+#blog_part .blog .blog_item:hover{
+    background: #0f2f44;
+}
+#blog_part .blog .blog_item:hover .text h4{
+    color: white;
+}
+#blog_part .blog .blog_item:hover .text h3{
+    color: white;
+}
+#blog_part .blog .blog_item:hover .text a{
+    color: white;
+}
+
+#blog_part .blog .blog_item .img img{
+    width: 100%;
+}
+#blog_part .blog .blog_item .text{
+    margin-top: 20px;
+}
+#blog_part .blog .blog_item .text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+#blog_part .blog .blog_item .text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 15px 0;
+    color: #222222;
+}
+#blog_part .blog .blog_item .text a{
+    color: #777777;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* =============================================
+              blog part end      
+================================================*/
+
+/* =============================================
+              footer part start      
+================================================*/
+footer{
+    margin-top: 100px;
+    background: #f5f5f5;
+    box-shadow: 0px -4px 39px 0px rgba(0,0,0,0.1);
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+footer .footer_logo{
+    width: 23%;
+    float: left;
+}
+
+footer .footer_logo p{
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    width: 266px;
+}
+footer .footer_logo a i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #0f2f44;
+    border: 1px solid #0f2f44;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 40px;
+    transition: .5s;
+}
+
+footer .footer_logo a i:hover{
+    background: #0f2f44;
+    color: white;
+}
+
+footer h3{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0f2f44;
+    font-weight: 400;
+}
+footer .footer_logo{
+    width: 25%;
+    float: left;
+}
+footer .contact_part{
+    width: 25%;
+    float: left;
+}
+footer .link_part{
+    width: 20%;
+    float: left;
+}
+footer .photo_part{
+    width: 30%;
+    float: left;
+}
+
+footer .footer_logo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #0f2f44;
+    width: 316px;
+    padding: 30px 0;
+}
+footer .contact_part .item{
+    margin-top: 30px;
+}
+footer .contact_part .item .icon{
+    width: 15%;
+    float: left;
+}
+footer .contact_part .item .text{
+    width: 85%;
+    float: left;
+}
+
+footer .contact_part .item .icon i{
+    font-size: 25px;
+    color: #777777;
+}
+footer .contact_part .item .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    width: 300px;
+}
+footer .contact_part .item .text .number{
+    width: 140px;
+}
+footer .link_part ul li{
+    margin-top: 20px;
+    transition: .5s;
+}
+footer .link_part ul li a{
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+footer .link_part ul li:hover{
+    margin-left: 20px;
+}
+
+footer .photo_part .images{
+    margin-top: 20px;
+}
+footer .photo_part .images img{
+    width: 21%;
+    margin: 5px;
+}
+/* =============================================
+              footer part end      
+================================================*/
+
+/* =============================================
+              copyrigth part start      
+================================================*/
+#copyright{
+    background: #f8f8f8;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: inset 0px 40px 166px -88px rgba(0,0,0,0.2);
+}
+#copyright ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #777777;
+    padding: 0 5px;
+}
+#copyright ul li a{
+    color: #ffc712;
+}
+/* =============================================
+              copyrigth part end      
+================================================*/
